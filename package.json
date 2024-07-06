@@ -1,14 +1,22 @@
 {
   "name": "sever",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supriyachattrjee/sever.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/supriyachattrjee/sever/issues"
+  },
+  "homepage": "https://github.com/supriyachattrjee/sever#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
