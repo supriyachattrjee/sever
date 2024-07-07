@@ -1,28 +1,22 @@
 {
-  "name": "sever",
+  "name": "mock",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/supriyachattrjee/sever.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/supriyachattrjee/sever/issues"
-  },
-  "engines": {
-    "node": ">=18.18.0 <21.0.0"
-  },
-  "homepage": "https://github.com/supriyachattrjee/sever#readme",
+  "description": "",
   "dependencies": {
-    "cors": "^2.8.5",
-    "json-serve": "^0.1.0",
-    "json-server": "^1.0.0-beta.1"
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "json-server": "^1.0.0-beta.1",
+    "nodemon": "^3.1.4",
+    "package-name": "^0.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
